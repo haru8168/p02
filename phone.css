@@ -1,0 +1,478 @@
+@media screen and (max-width:480px){
+
+  body{
+    max-width: 480px;
+    width:100%;
+    margin:0;
+     font-family: "Hiragino Kaku Gothic ProN";
+     color:#413A42;
+  }
+
+  a{
+    text-decoration: none;
+    color:white;
+  }
+
+
+ h1{
+   font-size:25px;
+ }
+
+ h2{
+   font-size:16px;
+ }
+
+ h3{
+   font-size:14px;
+ }
+
+ p{
+   font-size:12px;
+ }
+
+
+  .btn{
+    font-size: 12px;
+    color:white;
+    background-color:rgba(64,186,141,0.8);
+    padding:10px 20px 10px 20px;
+    border-radius: 8px;
+    box-shadow: 2px 5px rgba(44,128,97,0.8);
+
+  }
+
+  .btn{
+    transition: background-color,box-shadow 0.5s;
+
+  }
+
+
+  .btn:hover{
+    background-color:rgba(64,186,141,1);
+    box-shadow: 2px 5px rgba(44,128,97,1);
+
+  }
+
+  .btn:active{
+    box-shadow: none;
+    position:relative;
+    top:5px;
+  }
+
+  .container{
+    max-width: 480px;
+    width:95%;
+    margin:0 auto;
+  }
+
+  header {
+    color:white;
+    height: 65px;
+    width:100%;
+    background-color: rgba(46, 135, 161, 0.8);
+    position: fixed;
+    top:0;
+    z-index: 10;
+
+  }
+
+  .header-left{
+    height: 65px;
+    float:left;
+
+  }
+
+  .header-left img{
+    padding:4px 0 5px 30px;
+    margin-left: -30px;
+    width:170px;
+  }
+
+
+  .header-left img:active{
+    background-color: rgba(255,255,255,0.2);
+
+  }
+
+
+  .topmenu-btn{
+    float:right;
+    width:28px;
+    padding: 17.5px 35px 19px 20px;
+
+    line-height: 65px;
+  }
+
+
+  .header-right{
+    float:right;
+
+
+  }
+
+  .topmenu-btn:active{
+    background-color: rgba(255,255,255,0.2);
+
+  }
+
+
+
+.header-right{
+  background-color: rgba(255,255,255,0.5);
+
+}
+
+
+  .header-right li{
+    height:200px;
+
+    display: none;
+    list-style:none;
+    letter-spacing: 1px;
+    height:40px;
+    line-height: 40px;
+    padding:0 25px;
+    text-align: center;
+
+  }
+
+  .li-border{
+    border-top: 1px dotted white;
+  }
+
+  .scrollbtn{
+    color:#413A42;
+    font-size:14px;
+    font-weight: bold;
+    display: inline-block;
+  }
+
+
+
+  .header-right li:hover{
+    background-color:rgba(255, 255, 255, 0.3);
+  }
+
+
+
+  .top-wrapper{
+    text-align: center;
+    padding: 245px 0 245px 0;
+    background-image: url(image/001.jpg);
+    background-size: cover;
+  }
+
+  .top-wrapper h1{
+    font-size: 30px;
+    text-align: center;
+    color:white;
+    opacity: 0.8;
+
+  }
+  #mainh1{
+    margin:0;
+   display: none;
+
+  }
+
+
+
+
+
+  .about-progate{
+    background-image: url(image/007.png);
+    padding-bottom:50px;
+    border-bottom: 1px solid #BFC5CA;
+    text-align: center;
+  }
+
+
+
+  .about-progate h1{
+    margin-top:0;
+    padding-top:20px;
+  }
+
+  .about-progate h2{
+    margin-top: 0;
+    margin-bottom: 5px;
+    display:inline-block;
+    background: linear-gradient(transparent 60%, rgba(239,91,156,0.6) 60%);
+  }
+
+  .aboutbtn{
+    margin-top:40px;
+    text-align: center;
+  }
+
+
+  .lesson-wrapper{
+    text-align: center;
+    margin:30px 0;
+
+
+  }
+
+  .lesson-wrapper h1{
+    margin-bottom:40px;
+  }
+
+  .lessons{
+    text-align: center;
+
+  }
+
+  .contents-item{
+    width: 100%;
+    float:left;
+    margin-bottom:20px;
+
+
+  }
+
+  .contents-icon{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    position: relative;
+    margin: 0 auto;
+    cursor: default;
+
+
+  }
+
+  .contents-icon p{
+    font-size: 14px;
+    color:#4B4B50;
+    position: absolute;
+   top:30%;
+   width:100%;
+   font-weight: bold;
+
+  }
+
+  .html-back{
+    background-color: #F5C652;
+  }
+
+  .jq-back{
+   background-color: #52F57B;
+  }
+
+  .ruby-back{
+    background-color: #F55552;
+  }
+
+  .php-back{
+    background-color: #9F52F5;
+  }
+
+
+
+
+  .lesson-text{
+    margin:10px auto 0 auto;
+    width:50%;
+    font-size:12px;
+  }
+
+  .active{
+    display:block;
+  }
+
+
+
+  .clear{
+    clear:left;
+  }
+
+  .tokucho-wrapper{
+    text-align: center;
+    border-top:1px solid #9B9B9B;
+  }
+
+  .tokucho-wrapper h1{
+    margin: 20px 0;
+  }
+
+  .tokucho-list h3{
+    margin-bottom: 20px;
+  }
+
+  .check-box{
+    width:20px;
+    display:inline-block;
+  }
+
+  .list{
+    margin-bottom: 30px;
+  }
+
+  .tokucho-list h3{
+    display: inline-block;
+  }
+
+  .tokucho-list span{
+    background: linear-gradient(transparent 60%, rgba(252,175,23,0.6) 60%);
+  }
+
+
+  .tokucho-img{
+  width: 90%;
+
+  }
+
+  .tokucho-matome{
+    margin-top:10px;
+    text-align: center;
+
+  }
+
+  .tokucho-matome h3{
+    font-size:0;
+    display: inline-block;
+    position: relative;
+    padding: 0.3em;
+  }
+
+
+
+#matome{
+  margin-bottom: -18px;
+}
+
+
+    .tokucho-matome h3:before{
+    font-size: 14px;
+    content: 'Progateは、ゲーム感覚でサクサク学べます♪';
+    text-align: center;
+
+  }
+
+  .tokucho-matome h3:after{
+    margin:-6px;
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 7px;
+    background: repeating-linear-gradient(-45deg, skyblue, skyblue 2px, white 2px, white 4px);
+  }
+
+  .price-wrapper{
+    text-align: center;
+    margin-top: 50px;
+    border-top:1px solid #9B9B9B;
+  }
+
+  .price{
+    width:100%;
+  text-align: center;
+
+  }
+
+  .price-wrapper h1{
+    margin-top: 30px;
+  }
+
+  .sub-heading{
+    font-weight: bold;
+  }
+
+  .sub-heading span{
+    background: linear-gradient(transparent 60%, rgba(252,175,23,0.6) 60%);
+  }
+
+  .price-list{
+    text-align: center;
+    width:46%;
+    margin-right:2px;
+    display:inline-block;
+    border:1px solid #767676;
+  }
+
+  .price0{
+    margin:0;
+    padding:16px 0;
+    background-color: #59BCA8;
+  }
+
+  .price1000{
+    margin:0;
+    padding:16px 0;
+    background-color: #D28998;
+  }
+
+  .price-text{
+    padding:16px 0 16px 0;
+    margin-top:0;
+    border-top:1px solid #767676;
+    border-bottom:1px dotted #767676;
+  }
+
+
+  .message-wrapper{
+    margin-top:50px;
+    text-align: center;
+  }
+
+  .contact-wrapper{
+    text-align: center;
+    margin-top: 60px;
+    padding-bottom: 50px;
+    border-top: 1px solid #767676;
+    background-image: url(image/008.png);
+
+  }
+
+  .contact-wrapper h1{
+    margin-top: 30px;
+  }
+
+  .contact-wrapper h5{
+    font-size:16px;
+  }
+
+  .center-form{
+    text-align: center;
+  }
+
+  label{
+    display:block;
+  }
+
+  textarea{
+    display:block;
+  margin: 0 auto;
+
+  }
+
+  input{
+    margin-bottom:10px;
+  }
+
+  .submit{
+    margin-top:10px;
+
+  }
+
+  .mailform{
+    padding-right:100px;
+  }
+
+  footer{
+    text-align: center;
+    padding:10px;
+    background-color: #001F43
+
+  }
+
+  footer p{
+    display:inline-block;
+    color:white;
+    letter-spacing: 2px;
+    font-size:15px;
+
+  }
+}
