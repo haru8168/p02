@@ -1,0 +1,425 @@
+@media screen and (min-width:781px){
+
+body{
+  margin:0;
+   font-family: "Hiragino Kaku Gothic ProN";
+   color:#413A42;
+}
+
+a{
+  text-decoration: none;
+  color:white;
+}
+
+
+
+.btn{
+
+  color:white;
+  background-color:rgba(64,186,141,0.8);
+  padding:10px 20px 10px 20px;
+  border-radius: 8px;
+  box-shadow: 2px 5px rgba(44,128,97,0.8);
+
+}
+
+.btn{
+  transition: background-color,box-shadow 0.5s;
+
+}
+
+
+.btn:hover{
+  background-color:rgba(64,186,141,1);
+  box-shadow: 2px 5px rgba(44,128,97,1);
+
+}
+
+.btn:active{
+  box-shadow: none;
+  position:relative;
+  top:5px;
+}
+
+.container{
+  max-width:1170px;
+  width:100%;
+  padding:0 15px;
+  margin:0 auto;
+}
+
+.top-wrapper{
+  padding: 245px 0 245px 0;
+  background-image: url(image/001.jpg);
+  background-size: cover;
+}
+
+
+.top-wrapper h1{
+  font-size: 48px;
+  text-align: center;
+  color:white;
+  opacity: 0.8;
+  letter-spacing: 10px;
+}
+
+header {
+  color:white;
+  height: 65px;
+  width:100%;
+  background-color: rgba(46, 135, 161, 0.8);
+  position: fixed;
+  top:0;
+  z-index: 10;
+
+}
+
+.header-left{
+
+  float:left;
+}
+
+.header-left img{
+  height:63px;
+  width:200px;
+}
+
+.header-left img{
+transition: all 0.5s;
+}
+
+.header-left img:hover{
+  border-bottom:2px solid rgba(255,255,255,0.7);
+
+}
+
+.topmenu-btn{
+  display: none;
+}
+
+.header-right{
+  float:right;
+
+}
+
+
+
+
+.header-right li{
+  list-style:none;
+  float:left;
+  letter-spacing: 1px;
+  transition:0.6s;
+  line-height: 65px;
+  padding:0 25px;
+
+}
+
+
+
+.header-right li:hover{
+  background-color:rgba(255, 255, 255, 0.3);
+}
+
+
+#mainh1{
+  margin:0;
+ display: none;
+
+}
+
+.scrollbtn{
+  display: inline-block;
+}
+
+
+
+
+.about-progate{
+  background-image: url(image/007.png);
+  padding-bottom:50px;
+  border-bottom: 1px solid #BFC5CA;
+}
+
+
+
+.about-progate h1{
+  margin-top:0;
+  padding-top:50px;
+}
+
+.about-progate h2{
+  margin-top: 0;
+  margin-bottom: 5px;
+  display:inline-block;
+  background: linear-gradient(transparent 60%, rgba(239,91,156,0.6) 60%);
+}
+
+.aboutbtn{
+  margin-top:40px;
+  text-align: center;
+}
+
+
+.lesson-wrapper{
+  margin-top:50px;
+  height:400px;
+
+}
+
+.lesson-wrapper h1{
+  margin-bottom:40px;
+}
+
+.lessons{
+  text-align: center;
+
+}
+
+.contents-item{
+  width: 25%;
+  float:left;
+
+}
+
+.contents-icon{
+  width: 150px;
+  height: 150px;
+  border-radius: 50px;
+  position: relative;
+  margin: 0 auto;
+  cursor: default;
+
+}
+
+.contents-icon p{
+  color:#4B4B50;
+}
+
+.html-back{
+  background-color: #F5C652;
+}
+
+.jq-back{
+ background-color: #52F57B;
+}
+
+.ruby-back{
+  background-color: #F55552;
+}
+
+.php-back{
+  background-color: #9F52F5;
+}
+
+.contents-icon p{
+ position: absolute;
+ top:30%;
+ width:100%;
+ font-size:20px;
+ font-weight: bold;
+
+
+}
+
+
+
+.lesson-text{
+  display:none;
+  padding-top:15px;
+  width:80%;
+  margin: 0 auto;
+  font-size:12px;
+
+
+
+}
+
+.active{
+  display:block;
+}
+
+
+
+.clear{
+  clear:left;
+}
+
+.tokucho-wrapper{
+
+
+  border-top:1px solid #9B9B9B;
+}
+
+.tokucho-wrapper h1{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.tokucho-list h3{
+  margin-bottom: 30px;
+}
+
+.check-box{
+  width:25px;
+  display:inline-block;
+}
+
+.list{
+  margin-bottom: 50px;
+}
+
+.tokucho-list h3{
+  display: inline-block;
+}
+
+.tokucho-list span{
+  background: linear-gradient(transparent 60%, rgba(252,175,23,0.6) 60%);
+}
+
+
+.tokucho-img{
+width: 800px;
+
+}
+
+#matome{
+  display: none;
+}
+
+.tokucho-matome{
+  margin-top:50px;
+  text-align: center;
+
+}
+
+.tokucho-matome h3{
+  display: inline-block;
+  position: relative;
+  padding: 0.3em;
+}
+
+.tokucho-matome h3:after{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 7px;
+  background: repeating-linear-gradient(-45deg, skyblue, skyblue 2px, white 2px, white 4px);
+}
+
+.price-wrapper{
+  margin-top: 80px;
+  border-top:1px solid #9B9B9B;
+}
+
+.price{
+  width:100%;
+text-align: center;
+
+}
+
+.price-wrapper h1{
+  margin-top: 50px;
+}
+
+.sub-heading{
+  font-weight: bold;
+}
+
+.sub-heading span{
+  background: linear-gradient(transparent 60%, rgba(252,175,23,0.6) 60%);
+}
+
+.price-list{
+  text-align: center;
+  width:46%;
+  margin-right:2px
+  float: left;
+  display:inline-block;
+  border:1px solid #767676;
+}
+
+.price0{
+  margin:0;
+  padding:16px 0;
+  background-color: #59BCA8;
+}
+
+.price1000{
+  margin:0;
+  padding:16px 0;
+  background-color: #D28998;
+}
+
+.price-text{
+  padding:16px 0 16px 0;
+  margin-top:0;
+  border-top:1px solid #767676;
+  border-bottom:1px dotted #767676;
+}
+
+
+.message-wrapper{
+  margin-top:50px;
+  text-align: center;
+}
+
+.contact-wrapper{
+  margin-top: 100px;
+  padding-bottom: 50px;
+  border-top: 1px solid #767676;
+  background-image: url(image/008.png);
+
+}
+
+.contact-wrapper h1{
+  margin-top: 50px;
+}
+
+.contact-wrapper h5{
+  font-size:18px;
+}
+
+.center-form{
+  text-align: center;
+}
+
+label{
+  display:block;
+}
+
+textarea{
+  display:block;
+margin: 0 auto;
+
+}
+
+input{
+  margin-bottom:10px;
+}
+
+.submit{
+  margin-top:10px;
+
+}
+
+.mailform{
+  padding-right:100px;
+}
+
+footer{
+  padding:10px;
+  background-color: #001F43
+
+}
+
+footer p{
+  display:inline-block;
+  color:white;
+  letter-spacing: 2px;
+  font-size:15px;
+
+}
+}
